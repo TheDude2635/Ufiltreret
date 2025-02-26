@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ufiltreret</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #ffffff; color: #000000; margin: 0; padding: 0; }
+        header { background-color: #00cc00; color: #ffffff; padding: 50px; text-align: center; border-bottom: 5px solid #ffffff; position: relative; }
+        header h1 { font-family: 'Oswald', sans-serif; font-size: 4.5em; text-shadow: 4px 4px 8px rgba(0,0,0,0.7); margin: 0; letter-spacing: 2px; }
+        header p { font-family: 'Oswald', sans-serif; font-size: 2.2em; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); margin: 0; font-weight: bold; }
+        .header-logo {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            width: 280px; /* Justeret størrelse - ændr til fx 150px hvis større ønskes */
+            height: auto;
+        }
+        nav { background-color: #006600; padding: 10px; }
+        nav ul { list-style-type: none; padding: 0; margin: 0; text-align: center; }
+        nav ul li { display: inline; margin: 0 15px; }
+        nav ul li a { color: #ffffff; text-decoration: none; font-weight: bold; }
+        main { padding: 20px; }
+        section { margin-bottom: 40px; }
+        section h2 { color: #2E7D32; font-size: 2em; margin-bottom: 20px; }
+        .teaser-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .teaser { padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transform: translateY(0); }
+        .teaser:nth-child(odd) { transform: translateY(10px); }
+        .teaser img { max-width: 100%; height: auto; border-radius: 5px; }
+        .teaser h3 { color: #ffffff; font-size: 1.4em; margin: 10px 0; }
+        .teaser p { color: #000000; font-size: 1em; margin: 0 0 5px 0; }
+        .teaser .category { font-size: 0.8em; color: #e0e0e0; margin: 0; }
+        .teaser a { color: #ffffff; text-decoration: none; }
+        .danish-news { background-color: #2E7D32; }
+        .international-news { background-color: #81C784; }
+        .crypto-news { background-color: #B2FF59; }
+        .sports-news { background-color: #4CAF8C; }
+        footer { background-color: #006600; color: #ffffff; text-align: center; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Billeder/U.jpg" alt="Ufiltreret Logo" class="header-logo">
+        <h1>Ufiltreret</h1>
+        <p>RÅ FAKTA UDEN FILTER</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#danish-news">Danske nyheder</a></li>
+            <li><a href="#international-news">Internationale nyheder</a></li>
+            <li><a href="#crypto">Krypto</a></li>
+            <li><a href="#sports">Sport</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="danish-news">
+            <h2>Danske nyheder</h2>
+            <div class="teaser-grid">
+                <div class="teaser danish-news">
+                    <img src="Billeder/DR1.jpg" alt="DR satire">
+                    <h3><a href="article1.html#article8">DR’s satire splitter Danmark: Genialt eller groft?</a></h3>
+                    <p>"Tæt på sandheden" parodierer Grønland og møder politianmeldelser.</p>
+                    <p class="category">Indland</p>
+                </div>
+                <div class="teaser danish-news">
+                    <img src="Billeder/Mette_Ukraine.jpg" alt="Ukraine">
+                    <h3><a href="article1.html#article1">Ukraine-støtte splitter Danmark</a></h3>
+                    <p>Milliarder til Ukraine vækker debat om nationale prioriteter.</p>
+                    <p class="category">Indland</p>
+                </div>
+                <div class="teaser danish-news">
+                    <img src="Billeder/Lars_Boje.jpg" alt="Lars Boje Mathiesen">
+                    <h3><a href="article1.html#article2">Lars Boje kræver reform</a></h3>
+                    <p>Politikeren vil omprioritere danske midler.</p>
+                    <p class="category">Indland</p>
+                </div>
+            </div>
+        </section>
+        <section id="international-news">
+            <h2>Internationale nyheder</h2>
+            <div class="teaser-grid">
+                <div class="teaser international-news">
+                    <img src="Billeder/Trump_VIP.jpg" alt="Trump Golden Card">
+                    <h3><a href="article1.html#article9">Trumps "Guldkort" åbner USA for millionærer</a></h3>
+                    <p>Fra 25. februar 2025 kan rige udlændinge købe opholdstilladelse.</p>
+                    <p class="category">Udland</p>
+                </div>
+                <div class="teaser international-news">
+                    <img src="Billeder/Elon.jpg" alt="Elon Musk">
+                    <h3><a href="article1.html#article3">Musk’s DOGE skaber kaos</a></h3>
+                    <p>Reformer i USA’s regering møder modstand.</p>
+                    <p class="category">Udland</p>
+                </div>
+                <div class="teaser international-news">
+                    <img src="Billeder/Trump.jpg" alt="Donald Trump">
+                    <h3><a href="article1.html#article4">Trump lover økonomisk boom</a></h3>
+                    <p>Ny plan splitter eksperterne.</p>
+                    <p class="category">Udland</p>
+                </div>
+            </div>
+        </section>
+        <section id="crypto">
+            <h2>Krypto</h2>
+            <div class="teaser-grid">
+                <div class="teaser crypto-news">
+                    <img src="Billeder/Bitcoin.jpg" alt="Bitcoin surge">
+                    <h3><a href="article1.html#article10">Bitcoin brager frem: Frihed eller risiko?</a></h3>
+                    <p>Den 25. februar 2025 stiger kryptovalutaen 10 % på 24 timer.</p>
+                    <p class="category">Krypto</p>
+                </div>
+                <div class="teaser crypto-news">
+                    <img src="Billeder/Graf.jpg" alt="Kryptovaluta">
+                    <h3><a href="article1.html#article5">Krypto svinger vildt</a></h3>
+                    <p>Volatilitet og muligheder i markedet.</p>
+                    <p class="category">Krypto</p>
+                </div>
+            </div>
+        </section>
+        <section id="sports">
+            <h2>Sport</h2>
+            <div class="teaser-grid">
+                <div class="teaser sports-news">
+                    <img src="Billeder/ATPMexican.jpg" alt="Holger Rune">
+                    <h3><a href="article1.html#article11">Rune tager Mexico med storm: En stjerne er født</a></h3>
+                    <p>Den 25. februar 2025 vinder Holger Rune i Acapulco.</p>
+                    <p class="category">Sport</p>
+                </div>
+                <div class="teaser sports-news">
+                    <img src="Billeder/FCK.jpg" alt="FC København">
+                    <h3><a href="article1.html#article6">FCK sejrer i derby</a></h3>
+                    <p>Dramatisk sejr mod Brøndby.</p>
+                    <p class="category">Sport</p>
+                </div>
+                <div class="teaser sports-news">
+                    <img src="Billeder/Dommer.jpg" alt="International fodbold">
+                    <h3><a href="article1.html#article7">City og Madrid dominerer</a></h3>
+                    <p>Opdateringer fra Premier League og La Liga.</p>
+                    <p class="category">Sport</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Ufiltreret. Alle rettigheder forbeholdes.</p>
+    </footer>
+</body>
+</html>

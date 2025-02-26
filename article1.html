@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikler - Ufiltreret</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #ffffff; color: #000000; margin: 0; padding: 0; }
+        header { background-color: #00cc00; color: #ffffff; padding: 50px; text-align: center; border-bottom: 5px solid #ffffff; position: relative; }
+        header h1 { font-family: 'Oswald', sans-serif; font-size: 4.5em; text-shadow: 4px 4px 8px rgba(0,0,0,0.7); margin: 0; letter-spacing: 2px; }
+        header p { font-family: 'Oswald', sans-serif; font-size: 2.2em; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); margin: 0; font-weight: bold; }
+        .header-logo {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            width: 280px;
+            height: auto;
+        }
+        nav { background-color: #006600; padding: 10px; }
+        nav ul { list-style-type: none; padding: 0; margin: 0; text-align: center; }
+        nav ul li { display: inline; margin: 0 15px; }
+        nav ul li a { color: #ffffff; text-decoration: none; font-weight: bold; }
+        main { padding: 20px; max-width: 800px; margin: 0 auto; }
+        article { margin-bottom: 60px; }
+        article h1 { color: #2E7D32; font-size: 2.5em; margin-bottom: 5px; }
+        article h2 { font-size: 1.5em; font-weight: bold; margin-bottom: 10px; }
+        article .byline { font-style: italic; color: #555; margin-bottom: 20px; }
+        article p { line-height: 1.6; margin-bottom: 15px; }
+        article h3 { color: #4CAF50; font-size: 1.3em; margin-top: 20px; }
+        article ul { margin-bottom: 15px; }
+        hr { border: 0; border-top: 1px solid #ccc; margin: 40px 0; }
+        .related-articles h3 { font-size: 1.5em; color: #2E7D32; margin-bottom: 20px; }
+        .related-articles .teaser-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .teaser { padding: 10px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .teaser img { max-width: 100%; height: auto; border-radius: 5px; }
+        .teaser h3 { color: #ffffff; font-size: 1.2em; margin: 10px 0; text-align: center; }
+        .teaser a { color: #ffffff; text-decoration: none; display: block; }
+        .teaser.danish-news { background-color: #2E7D32; }
+        .teaser.international-news { background-color: #81C784; }
+        .teaser.crypto-news { background-color: #B2FF59; }
+        .teaser.sports-news { background-color: #4CAF8C; }
+        footer { background-color: #006600; color: #ffffff; text-align: center; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Billeder/U.jpg" alt="Ufiltreret Logo" class="header-logo">
+        <h1>Ufiltreret</h1>
+        <p>RÅ FAKTA UDEN FILTER</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="index.html#danish-news">Danske nyheder</a></li>
+            <li><a href="index.html#international-news">Internationale nyheder</a></li>
+            <li><a href="index.html#crypto">Krypto</a></li>
+            <li><a href="index.html#sports">Sport</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article id="article1">
+            <h1>Ukraine-støtte splitter Danmark</h1>
+            <h2>Milliarder til konfliktzonen rejser spørgsmål om Danmarks fremtid i 2025</h2>
+            <p class="byline">Af Grok, 26. februar 2025</p>
+            <p>Danmark har siden Ruslands invasion af Ukraine i 2022 sendt over 10 milliarder kroner i militær og økonomisk støtte til Kyiv. Den seneste pakke, annonceret af statsminister Mette Frederiksen den 25. februar 2025, inkluderer F-16-fly og tilladelse til at bruge danske våben på russisk jord. Men mens regeringen ser det som en moralsk pligt og en investering i Europas sikkerhed, vokser en modstand blandt danskerne, der spørger: Hvad med os selv? Pengene kunne have finansieret tusindvis af sygeplejersker eller en opgradering af infrastrukturen i udkantsområder som Nordjylland.</p>
+            <h3>En økonomisk byrde på skatteyderne</h3>
+            <p>Danmarks engagement i Ukraine er ikke billigt. De 10 milliarder kroner svarer til omkring 1% af det årlige statsbudget, og det er kun det officielle tal – eksperter som Jens Andersen fra Københavns Universitet anslår, at de reelle omkostninger, inklusive logistik og vedligehold, kan være endnu højere. Samtidig kæmper sundhedsvæsenet med lange ventelister, hvor over 100.000 danskere ifølge Sundhedsministeriet venter på behandling. I Nordjylland har lokale politikere længe klaget over nedslidte veje og broer, som kunne have nydt godt af en brøkdel af de midler, der nu sendes østpå.</p>
+            <p>Økonomisk set er det et valg mellem at støtte en allieret og at investere i Danmark selv. En meningsmåling fra Gallup, offentliggjort i februar 2025, viste, at 42% af danskerne mener, at Ukraine-støtten bør reduceres, hvis det kan frigøre midler til velfærd. "Vi har vores egne problemer," siger pensionist Hanne Jensen fra Aalborg. "Jeg forstår, at Ukraine har brug for hjælp, men hvorfor skal vi betale så meget?"</p>
+            <h3>Geopolitiske risici tættere på hjemmet</h3>
+            <p>Den strategiske side af sagen er lige så kompleks. Danmark er en del af NATO og har dermed en interesse i at stå sammen mod Rusland. Men beslutningen om at lade Ukraine bruge danske våben mod russiske mål har hævet indsatsen. Forsvarsanalytiker Peter Nielsen advarer: "Vi er nu en direkte aktør i konflikten i Ruslands øjne. Det kan få konsekvenser, vi ikke er klar til." Ruslands udenrigsministerium har allerede udstedt en advarsel til vestlige lande, og selvom direkte angreb på Danmark virker usandsynlige, frygter nogle en eskalering i Østersøen.</p>
+            <p>Politikeren Lars Boje Mathiesen har foreslået en alternativ tilgang: dialog frem for våben. "Vi burde forhandle med Putin for at få en våbenhvile," skrev han på X den 23. februar 2025. Hans holdning er kontroversiel, men den afspejler en voksende skepsis over for Danmarks rolle som en af de mest aktive støtter af Ukraine i Norden. Samtidig risikerer Danmark at skade relationer til neutrale lande som Indien og Sydafrika, der har kritiseret Vestens ensidige engagement – noget, der kan ramme dansk eksport af alt fra mejeriprodukter til vindmøller.</p>
+            <h3>En nation på vippen</h3>
+            <p>Debatten om Ukraine-støtten handler ikke kun om penge eller sikkerhed – det er også et spørgsmål om værdier. Mette Frederiksen har gentagne gange understreget, at Danmark står på "den rigtige side af historien". På et pressemøde i København sagde hun: "Hvis vi ikke hjælper Ukraine, hvem er vi så som folk?" Men for mange danskere er det svært at se moralen, når deres egne børn mangler lærere, og ældre sidder fast i et sundhedssystem under pres.</p>
+            <p>Eksempelvis kunne de 10 milliarder have finansieret en lønforhøjelse til sundhedspersonale, som har strejket flere gange siden 2023 for bedre vilkår. Eller de kunne have sat turbo på Danmarks grønne omstilling, hvor vi halter efter vores egne klimamål. I stedet ser borgerne pengene forsvinde ud af landet, mens regeringen insisterer på, at det er en investering i fremtiden. Sikkerhedsekspert Anna Kjær advarer dog: "Rusland ser os som en trussel nu – vi balancerer på en knivsæg."</p>
+            <p>Spørgsmålet er, om Danmark kan finde en mellemvej: fortsætte støtten uden at tømme kassen eller provokere en stormagt unødigt. For nu er nationen splittet mellem solidaritet og selvopholdelse, og næste milliardpakke kan blive den, der tipper vægten.</p>
+            <hr>
+            <div class="related-articles">
+                <h3>Nyeste artikler</h3>
+                <div class="teaser-grid">
+                    <div class="teaser danish-news">
+                        <a href="#article8"><img src="Billeder/DR1.jpg" alt="DR satire"><h3>DR’s satire splitter Danmark</h3></a>
+                    </div>
+                    <div class="teaser international-news">
+                        <a href="#article9"><img src="Billeder/Trump_VIP.jpg" alt="Trump Golden Card"><h3>Trumps "Guldkort" åbner USA</h3></a>
+                    </div>
+                    <div class="teaser sports-news">
+                        <a href="#article11"><img src="Billeder/ATPMexican.jpg" alt="Holger Rune"><h3>Rune tager Mexico med storm</h3></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="article2">
+            <h1>Lars Boje kræver reform</h1>
+            <h2>Politikeren foreslår at omprioritere milliarder fra internationale konflikter til danske behov i 2025</h2>
+            <p class="byline">Af Grok, 26. februar 2025</p>
+            <p>Lars Boje Mathiesen har sat sig for at ryste dansk politik op. Med en række opslag på X i februar 2025 har den tidligere Nye Borgerlige-politiker kritiseret regeringens massive udgifter til Ukraine og andre internationale projekter. I stedet vil han bringe pengene hjem til Danmark og investere i sundhed, uddannelse og skattelettelser. Hans budskab rammer en nerve i en tid, hvor inflation og stigende leveomkostninger presser danskerne, men hans planer møder også skarp modstand fra både politikere og økonomer.</p>
+            <h3>En vision om et nyt Danmark</h3>
+            <p>Mathiesens seneste opslag fra 24. februar 2025 lyder klart: "Vi skal tage os af vores eget hus først – sundhed, uddannelse og mindre skat." Han foreslår en radikal omlægning af statsbudgettet, hvor milliarder, der nu sendes til Ukraine, i stedet skal bruges på danske prioriteter. Ifølge hans beregninger kunne de 10 milliarder kroner, Danmark har givet siden 2022, have finansieret 6.000 nye lærere i folkeskolen eller en skattelettelse på 5% for middelklassen – en konkret lettelse for familier, der kæmper med stigende priser på alt fra brød til boliglån.</p>
+            <p>Han går længere og vil skære i det offentlige bureaukrati, som han kalder "ineffektivt og oppustet". Eksempelvis nævner han de mange styrelser og administrativt personel, der ifølge ham sluger milliarder uden at skabe reel værdi. "Penge skal ikke forsvinde i systemer – de skal arbejde for folket," skrev han i et tidligere opslag. Hans idé minder om tidligere liberale politikere som Anders Fogh Rasmussen, der i 2000’erne pressede på for skattelettelser, men Mathiesens fokus på at trække midler hjem fra udlandet giver den en frisk vinkel. Han nævner også konkrete eksempler som at nedlægge mindre styrelser og flytte midler til sygehusene, hvor ventetiderne er steget med 20% siden 2020 ifølge Sundhedsministeriets seneste rapport.</p>
+            <h3>Modstand fra flere fronter</h3>
+            <p>Reaktionerne på Mathiesens planer er blandede. I hans hjemby, København, har nogle borgere taget budskabet til sig. "Jeg er træt af, at mine skattekroner forsvinder til krig," siger taxachauffør Michael Petersen, der dagligt kører folk gennem hovedstadens trafik. Men økonomer er skeptiske. Maria Jensen fra Danske Bank advarer: "Uden en klar finansieringsplan kan skattelettelser skabe kaos i statskassen. Vi kan ikke bare trække stikket ud af internationale forpligtelser." Hun peger på, at Danmark som NATO-medlem har forpligtelser, der ikke bare kan droppes uden diplomatiske konsekvenser – fx risikoen for at miste indflydelse i alliancen eller handelspartnere.</p>
+            <p>Politisk møder Mathiesen også modvind. SF’s talsmand Jens Larsen kalder det "egoistisk og kortsigtet". "Danmark skal ikke vende ryggen til verden – vi har et ansvar," siger han i en kommentar til DR. Andre, som Socialdemokraternes finansordfører Lise Møller, anerkender dog, at debatten er vigtig: "Vi må tænke over, hvordan vi balancerer velfærd og solidaritet." Mathiesens kritik af Ukraine-støtten har især skabt splid – nogle ser det som en sund dosis realisme, mens andre mener, det underminerer Danmarks rolle som humanitær aktør. "Vi bruger penge, vi ikke har, på en krig, vi ikke ejer," skrev han i et opslag, der er blevet delt over 5.000 gange.</p>
+            <h3>En chance eller et risikabelt spil?</h3>
+            <p>Mathiesens planer har historiske paralleller. I 1980’erne skar Danmark ned på udviklingshjælp for at styrke økonomien derhjemme, hvilket gav økonomisk vækst, men også kritik fra FN for at svigte globale forpligtelser. Hvis Mathiesen får gennemslag, kunne det ændre Danmarks profil fra en global spiller til en mere indadvendt nation – noget, der både kan appellere til vælgere, der føler sig overset, og skabe frustration blandt internationale partnere. Eksporten af danske varer som mælk, møbler og medicin, der udgør over 60% af vores BNP ifølge Danmarks Statistik, kunne tage skade, hvis lande som Indien eller Sydafrika reagerer negativt på en tilbagetrækning.</p>
+            <p>Gennemførligheden er også et spørgsmål. Regeringen under Mette Frederiksen sidder solidt på magten, og Mathiesens manglende parti bag sig gør hans idéer svære at omsætte til handling. Han har antydet planer om at stille op som uafhængig ved næste valg, men uden en stærk organisation bag sig er det en stejl vej. Alligevel har han sat gang i en samtale, der ræsonnerer hos mange danskere. "Han taler om det, vi andre tænker," siger butiksmedarbejder Tina Larsen fra Randers, der stemte på ham i 2022.</p>
+            <p>Om Mathiesens vision bliver til mere end ord afhænger af, om han kan samle nok støtte – enten i Folketinget eller blandt vælgerne – til at presse regeringen. For nu er hans opfordring til reform en udfordring til både politikere og borgere: Hvor skal Danmarks penge gå hen i en verden fyldt med kriser, både herhjemme og ude?</p>
+            <hr>
+            <div class="related-articles">
+                <h3>Nyeste artikler</h3>
+                <div class="teaser-grid">
+                    <div class="teaser danish-news">
+                        <a href="#article8"><img src="Billeder/DR1.jpg" alt="DR satire"><h3>DR’s satire splitter Danmark</h3></a>
+                    </div>
+                    <div class="teaser international-news">
+                        <a href="#article9"><img src="Billeder/Trump_VIP.jpg" alt="Trump Golden Card"><h3>Trumps "Guldkort" åbner USA</h3></a>
+                    </div>
+                    <div class="teaser crypto-news">
+                        <a href="#article10"><img src="Billeder/Bitcoin.jpg" alt="Bitcoin surge"><h3>Bitcoin brager frem</h3></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="article3">
+            <h1>Musk’s DOGE skaber kaos</h1>
+            <h2>Elon Musks reformprojekt ryster USA’s offentlige sektor i starten af 2025</h2>
+            <p class="byline">Af Grok, 26. februar 2025</p>
+            <p>Elon Musk og Donald Trump har sat gang i et projekt, der skal revolutionere den amerikanske regering. Department of Government Efficiency, eller DOGE, blev lanceret i januar 2025 med et løfte om at skære fedtet væk fra det offentlige bureaukrati. Men få uger senere, i slutningen af februar, står DOGE midt i en storm af protester, afskedigelser og juridiske udfordringer. Musk hævder, at det er en historisk chance for effektivitet, mens kritikere frygter, at det kan lamme essentielle offentlige tjenester som uddannelse og miljøbeskyttelse.</p>
+            <h3>En aggressiv start</h3>
+            <p>DOGE’s første skridt var dramatiske. Allerede i februar 2025 opsagde de kontrakter og afskedigede tusindvis af ansatte i ministerier som Uddannelse, Miljø og Arbejde. Musk skrev på X den 20. februar: "Vi har sparet milliarder på få uger – det er kun begyndelsen." Men en analyse fra NPR, offentliggjort kort efter, viste, at de faktiske besparelser var betydeligt lavere end annonceret – næsten 40% af de aflyste kontrakter ville alligevel være udløbet uden omkostninger. Kritikere beskylder DOGE for at puste tallene op for at retfærdiggøre deres eksistens.</p>
+            <p>Den menneskelige pris er tydelig. I Uddannelsesministeriet alene har over 2.000 ansatte fået fyresedler eller frivillige fratrædelser, og i Miljøstyrelsen er programmer til at overvåge luftkvalitet blevet skåret ned. Eksempelvis mistede en lille by i Ohio sin finansiering til et rent-vand-projekt, hvilket har fået lokale embedsmænd til at råbe op. "Vi står tilbage med ingenting," siger borgmester Linda Hayes fra Canton. I stater som Californien har skoler rapporteret forsinkelser i udbetalinger til lærerlønninger, fordi IT-systemer blev ramt af DOGE’s nedskæringer.</p>
+            <h3>Protester og juridiske slag</h3>
+            <p>Modstanden kom hurtigt. 21 medarbejdere fra U.S. Digital Service, en gruppe teknologer, der arbejder på digitale løsninger for regeringen, sagde op den 15. februar i protest. Deres opsigelsesbrev lød: "Vi nægter at være med til at nedbryde kritiske tjenester." Samtidig har fagforeninger organiseret demonstrationer foran DOGE’s kontorer i Washington D.C., og flere retssager er på vej. En dommer i District of Columbia har antydet, at DOGE’s struktur – som en slags uofficielt styret taskforce – kan være i strid med forfatningen, da den omgår Kongressens myndighed.</p>
+            <p>Pentagon og Udenrigsministeriet har også sat sig på bagbenene. Ifølge interne memoer, lækket til The Washington Post, har de bedt deres ansatte om ikke at samarbejde med DOGE’s krav om at dokumentere arbejdstimer eller risikere afskedigelse. "Det er en magtkamp," siger politolog Sarah Klein fra Georgetown University. "Musk og Trump vil tvinge deres vision igennem, men de møder en mur af embedsmænd, der ikke vil give slip." I mellemtiden har stater som Texas og Florida meldt om kaos i deres sociale systemer, hvor arbejdsløshedsunderstøttelse er blevet forsinket på grund af afskaffede IT-kontrakter.</p>
+            <h3>En vision med konsekvenser</h3>
+            <p>Musk og Trump står fast. "Vi skærer fedtet væk," gentager Musk, mens Trump kalder det "en historisk indsats for at rydde op i regeringen". Deres tilhængere ser DOGE som et modigt skridt mod en slankere stat – en slags privatiseringsrevolution i det offentlige. Forretningsmanden Tom Harris fra Houston siger: "Det betyder jobs til os i energisektoren – Musk ved, hvad han gør." Men modstandere som senator Bernie Sanders advarer: "De spiller hasard med vores fremtid." Han peger på, at nedskæringerne kan svække alt fra socialhjælp til national sikkerhed, hvis nøglesystemer kollapser.</p>
+            <p>Eksempelvis har DOGE’s beslutning om at afskaffe en række IT-kontrakter allerede ført til forsinkelser i udbetalinger af arbejdsløshedsunderstøttelse i stater som Michigan og Texas. "Folk får ikke deres penge," siger tidligere embedsmand Jane Carter, der nu arbejder som konsulent. "Det er ikke effektivitet – det er kaos." Samtidig frygter privatlivsadvokater, at DOGE’s hastværk kan føre til datalæk, da mange afskedigede ansatte havde adgang til følsomme systemer – fx borgerdata fra sundheds- og skattevæsenet.</p>
+            <p>For nu er det en kamp mellem visionær ambition og praktisk realitet. Hvis retssagerne vinder frem, eller offentlig modstand vokser, kan DOGE blive en kortvarig parentes. Men hvis Musk og Trump kan bevise deres pointe – at en slankere stat faktisk fungerer – kan det ændre USA’s offentlige sektor for altid. Spørgsmålet er, hvem der betaler prisen i mellemtiden.</p>
+            <hr>
+            <div class="related-articles">
+                <h3>Nyeste artikler</h3>
+                <div class="teaser-grid">
+                    <div class="teaser international-news">
+                        <a href="#article9"><img src="Billeder/Trump_VIP.jpg" alt="Trump Golden Card"><h3>Trumps "Guldkort" åbner USA</h3></a>
+                    </div>
+                    <div class="teaser sports-news">
+                        <a href="#article11"><img src="Billeder/ATPMexican.jpg" alt="Holger Rune"><h3>Rune tager Mexico med storm</h3></a>
+                    </div>
+                    <div class="teaser crypto-news">
+                        <a href="#article10"><img src="Billeder/Bitcoin.jpg" alt="Bitcoin surge"><h3>Bitcoin brager frem</h3></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="article4">
+            <h1>Trump lover økonomisk boom</h1>
+            <h2>Skattelettelser og deregulering skal genoplive USA’s økonomi i 2025</h2>
+            <p class="byline">Af Grok, 26. februar 2025</p>
+            <p>Donald Trump er tilbage med store løfter om at genoplive USA’s økonomi. I et opslag på Truth Social den 24. februar 2025 skitserede han en plan for at sænke selskabsskatten til 15%, skære i reguleringer og investere massivt i infrastruktur. "Vi skal tilbage til boomet før pandemien," skrev han, og hans tilhængere ser det som en chance for at kickstarte vækst efter år med inflation og usikkerhed. Men planen har også tændt en gnist af bekymring blandt økonomer og miljøforkæmpere, der frygter, at regningen kan ende hos de fattigste amerikanere og naturen selv.</p>
+            <h3>En plan med rødder i fortiden</h3>
+            <p>Trumps idéer er ikke nye – de bygger på hans politik fra hans første embedsperiode, hvor han i 2017 gennemførte en stor skattereform, der sænkede selskabsskatten fra 35% til 21%. Dengang førte det til en kortvarig økonomisk opsving, med arbejdsløshed på rekordlave 3,5% i 2019, men også til kritik for at favorisere store virksomheder og øge det føderale underskud. Nu vil han gå længere med en skat på 15% og en omfattende deregulering, især i energisektoren. Han nævner specifikt olie- og gasindustrien som en nøgle til at skabe jobs og reducere afhængigheden af importeret energi.</p>
+            <p>Infrastruktur er også en del af pakken. Trump lover at genopbygge veje, broer og lufthavne, som han kalder "en skændsel" i forhold til lande som Kina. Planen inkluderer private partnerskaber, hvor virksomheder som Tesla eller BlackRock kunne stå for finansieringen i bytte for skattefordele. Erhvervsleder John Miller fra Ohio ser det som en gave: "Det vil skabe tusindvis af jobs og få hjulene til at dreje igen." Men skeptikere som økonom Paul Krugman peger på, at uden matchende nedskæringer i udgifter vil underskuddet eksplodere – et problem, der allerede voksede under Trumps første tid.</p>
+            <h3>En pris for vækst</h3>
+            <p>Miljøforkæmpere er særligt bekymrede over dereguleringen. Trump har tidligere rullet tilbage over 100 miljøregler, og denne gang nævner han specifikt kul- og olieproduktion som områder, der skal "befris". "Vi har brug for energi, ikke restriktioner," sagde han i et interview med Fox News den 25. februar. Men aktivister som Greta Thunberg advarer: "Miljøet betaler prisen, og det er fremtidige generationer, der lider." I stater som Californien, hvor skovbrande og tørke allerede er et problem, frygter lokale embedsmænd, at færre reguleringer kan forværre klimaforandringerne.</p>
+            <p>Økonomisk set er billedet blandet. En rapport fra Congressional Budget Office fra 2024 viste, at Trumps tidligere skattelettelser primært gavnede de øverste 10% af indkomstskalaen, mens middelklassen kun så marginale fordele. Hvis den nye plan følger samme mønster, kan uligheden stige yderligere. "Det er en gave til de rige," siger demokraten Nancy Pelosi, der har lovet at kæmpe imod i Kongressen. Samtidig frygter små virksomheder i stater som Iowa, at store koncerner som Amazon vil tage hovedparten af fordelene, mens de selv kæmper med stigende omkostninger.</p>
+            <h3>Kampen i Kongressen og offentligheden</h3>
+            <p>Planens succes afhænger af Kongressen, hvor Republikanerne har et tyndt flertal i Repræsentanternes Hus, men står svagt i Senatet efter midtvejsvalgene i 2024. Demokraterne har allerede mobiliseret modstand, og senator Elizabeth Warren har varslet en "kamp til sidste blodsdråbe" mod det, hun kalder "en gave til Trumps milliardærvenner". Men Trump har erfaring med at presse sine planer igennem – i 2017 brugte han taktiske manøvrer for at omgå demokratisk modstand, og han kan gøre det igen.</p>
+            <p>I offentligheden er meningerne delte. En meningsmåling fra Pew Research i februar 2025 viste, at 48% støtter skattelettelserne, mens 45% frygter konsekvenserne for velfærden. I stater som Texas og Florida, hvor energisektoren er stærk, er begejstringen stor – oliearbejder Tom Harris fra Houston siger: "Det betyder jobs til os." Men i kyststater som New York og Californien er modstanden voksende, især blandt unge vælgere, der prioriterer klimaet.</p>
+            <p>For Trump handler det om at levere et håndgribeligt resultat tidligt i hans nye periode. Hvis planen går igennem, kan det booste hans popularitet og cementere hans arv som en økonomisk redningsmand. Men hvis den fejler – enten i Kongressen eller i praksis – kan det blive en økonomisk og politisk katastrofe.</p>
+            <hr>
+            <div class="related-articles">
+                <h3>Nyeste artikler</h3>
+                <div class="teaser-grid">
+                    <div class="teaser international-news">
+                        <a href="#article9"><img src="Billeder/Trump_VIP.jpg" alt="Trump Golden Card"><h3>Trumps "Guldkort" åbner USA</h3></a>
+                    </div>
+                    <div class="teaser sports-news">
+                        <a href="#article11"><img src="Billeder/ATPMexican.jpg" alt="Holger Rune"><h3>Rune tager Mexico med storm</h3></a>
+                    </div>
+                    <div class="teaser crypto-news">
+                        <a href="#article10"><img src="Billeder/Bitcoin.jpg" alt="Bitcoin surge"><h3>Bitcoin brager frem</h3></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="article5">
+            <h1>Krypto svinger vildt</h1>
+            <h2>Bitcoin og altcoins ryster investorer med volatilitet i februar 2025</h2>
+            <p class="byline">Af Grok, 26. februar 2025</p>
+            <p>Kryptomarkedet er igen en rutsjebane i februar 2025, hvor prisudsvingene har sat både småsparere og finansgiganter på prøve. Bitcoin, verdens førende kryptovaluta, svingede voldsomt mellem $60,000 og $70,000 i løbet af måneden, mens Ethereum viste styrke med en stigning drevet af længe ventede netværksopgraderinger. Mindre kendte altcoins som Solana og Cardano har også fanget opmærksomheden med pludselige prisstigninger, der lokker investorer med løfter om hurtige gevinster. Men bag de blinkende grafer og løfter om rigdom lurer en verden af risiko, hvor volatilitet, regulering og økonomiske faktorer truer med at vende drømmen til et mareridt.</p>
+            <h3>En uforudsigelig opgang</h3>
+            <p>Bitcoin har vist sin evne til at komme tilbage gang på gang, og februar 2025 var ingen undtagelse. Efter en stabil januar, hvor prisen lå på omkring $55,000, begyndte en ny bølge af institutionelle investorer at kaste sig ind i markedet. Store navne som BlackRock og Fidelity har øget deres indsatser gennem nye Bitcoin-ETF’er, som gør det lettere for både professionelle og almindelige folk at investere uden at skulle eje selve valutaen direkte. Samtidig har frygt for inflation i traditionelle FIAT-valutaer – hvor dollars og euros købekraft er faldet med stigende priser på alt fra dagligvarer til brændstof – drevet investorer mod krypto som en alternativ opsparing.</p>
+            <p>Ethereum har også nydt godt af markedets opdrift og nåede op mod $4,200 i midten af februar. Den primære drivkraft var en længe ventet opgradering til netværket, kendt som Ethereum 2.0’s seneste fase, der reducerer transaktionsomkostninger og energiforbrug markant. Denne udvikling har gjort Ethereum mere attraktivt for udviklere og investorer, der ser det som en konkurrent til Bitcoin, ikke kun som en valuta, men som en platform for smarte kontrakter og decentraliserede apps. Samtidig har mindre altcoins som Solana og Cardano oplevet stigninger på henholdsvis 15% og 12% i løbet af måneden, drevet af deres løfter om hurtigere transaktioner og bæredygtighed – en trend, der har fået mange til at spekulere i, om de kan udfordre de store spillere.</p>
+            <h3>Volatilitetens dobbelte ansigt</h3>
+            <p>Men bag de glitrende gevinster lurer en velkendt risiko: volatilitet. Bitcoin’s historie er en rutsjebane af ekstreme op- og nedture – fra næsten ingenting i 2009 til en top på $69,000 i november 2021, et fald til $16,000 i 2022 og nu en ny stigning i 2025. Denne ustabilitet er både en velsignelse og en forbandelse. For danske investorer som Kasper Nielsen fra Aarhus har det været en guldmine: "Jeg købte Solana til $150 i januar og solgte til $200 sidste uge – 50.000 kroner på en måned!" Men for andre har det været en katastrofe. "Jeg mistede halvdelen af mine opsparinger i 2022, da Bitcoin styrtede," siger Line Petersen fra Odense, der nu holder sig til traditionelle investeringer.</p>
+            <p>Volatiliteten drives af flere faktorer. Den globale økonomi står over for stigende renter og inflation, hvilket gør investorer nervøse og får dem til at søge sikre havne – nogle gange i krypto, andre gange væk fra det. Samtidig er markedet stadig præget af spekulation, hvor sociale medier som X kan sende priserne i vejret eller i kælderen på få timer. "Krypto er som et kasino lige nu," siger trader Anna Jensen fra København. "Du kan vinde stort, men du kan også tabe alt, hvis du ikke følger med." Eksperter som Jens Møller fra Nordea advarer om en potentiel boble: "Folk køber på hype, ikke på fundament – det er opskriften på et styrt."</p>
+            <h3>Reguleringens skygge</h3>
+            <p>En anden trussel mod kryptoens fremmarch er regulering. I USA har Securities and Exchange Commission (SEC) signaleret planer om strengere kontrol med kryptobørser som Coinbase og Binance, som er blevet beskyldt for at lette hvidvask og skatteunddragelse. En foreslået lov i Kongressen kan kræve, at alle transaktioner over $10,000 rapporteres til skattemyndighederne, noget der kan afskrække investorer, der værdsætter kryptoens anonymitet. "Hvis reguleringen bliver for hård, kan vi se et massivt fald," siger Møller.</p>
+            <p>I Europa er EU’s MiCA-lovgivning (Markets in Crypto-Assets) sat til at træde i kraft senere i 2025, og den vil indføre licenskrav for kryptofirmaer og skærpede regler for forbrugerbeskyttelse. For danske investorer betyder det, at gevinster snart skal indberettes til SKAT, hvilket kan tage noget af glansen af krypto som en "fri" investering. Men fortalere som Peter Thiel, der har investeret stort i Bitcoin siden 2010’erne, ser det som en mulighed: "Regulering kan gøre krypto legitimt og bringe det ind i mainstream."</p>
+            <h3>En fremtid i balance</h3>
+            <p>Bitcoin blev født i 2009 som et oprør mod bankerne efter finanskrisen, skabt af den mystiske Satoshi Nakamoto. Dets decentrale natur – hvor transaktioner verificeres af et globalt netværk uden central styring – er fortsat dets kerneappel, især i lande som Danmark, hvor bankernes gebyrer og lave renter frustrerer mange. Teknologiske fremskridt som Lynnetværket, der gør Bitcoin-transaktioner hurtigere og billigere, og Ethereum’s skift til Proof-of-Stake har styrket troen på kryptoens fremtid. "Det er en hedge mod et system, der ikke virker længere," siger Thiel.</p>
+            <p>Men udfordringerne er mange. Krypto’s enorme energiforbrug – selvom det er faldet med Ethereum’s opdateringer – er stadig en torn i øjet for miljøforkæmpere, og dens anonymitet har tiltrukket både frihedssøgende investorer og lyssky aktører som hackere og skattesnydere. For hver succes som Kasper Nielsen’s er der historier om folk, der har mistet alt i et pludseligt fald. "Jeg stoler mere på Bitcoin end på min bank," siger Nielsen, men for Line Petersen er det blevet en lærestreg: "Jeg spiller ikke længere – det er for risikabelt."</p>
+            <p>Februar 2025 har vist kryptoens dobbelte natur: et marked fyldt med muligheder, men også med faldgruber. Nogle spår, at Bitcoin kan nå $100,000 inden årets udgang, drevet af institutionel interesse og økonomisk usikkerhed, mens andre ser et nyt styrt som 2022 i horisonten. For nu balancerer krypto mellem drømmen om finansiel frihed og realiteten af et ustabilt marked – og hvad der sker næste gang, afhænger af investorerne, regeringerne og teknologiens næste skridt.</p>
+            <hr>
+            <div class="related-articles">
+                <h3>Nyeste artikler</h3>
+                <div class="teaser-grid">
+                    <div class="teaser crypto-news">
+                        <a href="#article10"><img src="Billeder/Bitcoin.jpg" alt="Bitcoin surge"><h3>Bitcoin brager frem</h3></a>
+                    </div>
+                    <div class="teaser international-news">
+                        <a href="#article9"><img src="Billeder/Trump_VIP.jpg" alt="Trump Golden Card"><h3>Trumps "Guldkort" åbner USA</h3></a>
+                    </div>
+                    <div class="teaser sports-news">
+                        <a href="#article11"><img src="Billeder/ATPMexican.jpg" alt="Holger Rune"><h3>Rune tager Mexico med storm</h3></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="article6">
+            <h1>FCK sejrer i derby</h1>
+            <h2>FC København vinder dramatisk mod Brøndby IF på Parken den 25. februar 2025</h2>
+            <p class="byline">Af Grok, 26. februar 2025</p>
+            <p>Den 25. februar 2025 blev Parken i København rammen om en af årets mest intense og følelsesladede kampe i Superligaen, da FC København (FCK) mødte deres ærkerivaler fra Brøndby IF i et derby, der holdt Danmark på kanten af sædet. Foran over 30.000 tilskuere snuppede FCK en sejr i overtiden efter en kamp fyldt med drama, taktiske sejre og lidenskab. Brøndby tog tidligt føringen og så ud til at have kontrol, men FCK’s vedholdenhed og en genial sidste akt sikrede dem tre afgørende point i mesterskabsjagten og rettighederne til at prale i hovedstaden.</p>
+            <h3>En kamp i to halvlege</h3>
+            <p>Første halvleg tilhørte Brøndby næsten fuldstændigt. Allerede i det 12. minut satte deres topscorer bolden i nettet med et præcist hovedstød efter et hjørnespark, hvilket fik de tilrejsende fans fra Vestegnen til at eksplodere i jubel. FCK’s forsvar virkede rystet, og Parkens normalt larmende publikum blev dæmpet af Brøndbys tidlige dominans. Midtbanen kæmpede for at finde rytmen, og chancerede var få – en enkelt afslutning fra afstand ramte overliggeren, men ellers var det en halvleg præget af frustration for hjemmeholdet.</p>
+            <p>Efter pausen ændrede billedet sig markant. FCK’s træner, Jess Thorup, foretog en taktisk justering, der bragte nyt liv i holdet. I det 55. minut udlignede FCK, da en præcis aflevering fra midtbanen fandt angriberen i feltet – et koldt og kontrolleret skud satte bolden i nettet og tændte håbet blandt fansene. Spændingen steg, og begge hold skabte chancer: Brøndby ramte overliggeren i det 68. minut, mens FCK’s keeper lavede en afgørende redning ti minutter senere. Da uret nærmede sig 90 minutter, troede mange, det ville ende uafgjort, men i overtiden slog FCK til. En genial gennembrudspasning skar gennem Brøndbys forsvar, og med iskold ro satte angriberen bolden i nettet til ekstatisk jubel fra Parkens tribuner.</p>
+            <h3>Betydningen for Superligaen</h3>
+            <p>Sejren giver FCK en fordel på to point over Brøndby i tabellen og sender et klart signal til resten af Superligaen: mesterskabet er inden for rækkevidde. Med denne sejr har FCK nu vundet tre ud af deres sidste fire kampe mod Brøndby, hvilket styrker deres mentale overtag i rivaliseringen. Kommentator Mia Olsen fra TV2 var ikke i tvivl: "FCK er favoritter nu – de har momentum og selvtillid. Det her kan være vendepunktet i sæsonen." Men Brøndby er langt fra ude af spillet. Deres tidlige dominans viste, at de har kvaliteten til at udfordre, og deres fans fylder allerede sociale medier med frustration blandet med håb om revanche.</p>
+            <p>Superligaen er kun halvvejs igennem sæsonen, og med flere afgørende kampe i vente – inklusive et nyt derby senere på året – er intet afgjort. For FCK handler det om at bygge på denne sejr, mens Brøndby må finde styrken til at slå tilbage. "Vi fortjente mere i dag," siger Brøndby-tilhænger Lars Pedersen fra Vestegnen. "Men det er fodbold – næste gang tager vi dem." I mellemtiden giver sejren FCK et psykologisk løft, der kan bære dem langt i kampen om titlen, som de sidst vandt i 2019.</p>
+            <h3>En rivalisering med dybe rødder</h3>
+            <p>Rivaliseringen mellem FCK og Brøndby er en af de mest ikoniske i dansk fodbold og går tilbage til 1990’erne, hvor de to klubber begyndte at dominere ligaen. FCK, med base i København, har vundet 14 mesterskaber siden da og repræsenterer ofte byens stolthed og professionalisme. Brøndby, fra forstæderne vest for hovedstaden, har 10 titler og en passioneret fankultur, der ser sig selv som arbejderklassens svar på FCK’s mere urbane image. Hvert møde mellem de to er mere end en kamp – det er en kamp om ære, identitet og retten til at prale i måneder efter.</p>
+            <p>Denne sejr var ingen undtagelse. For FCK’s spillere og fans var det en triumf, der rakte ud over de tre point. "Det her er, hvad vi lever for," siger supporter Maria Hansen, der har fulgt holdet i over 20 år. "At slå Brøndby på hjemmebane i sidste minut – det bliver ikke bedre." Men Thorup holder fokus fremad: "Vi har vundet en kamp, ikke mesterskabet. Der er meget arbejde tilbage." Næste udfordring er en kamp mod AGF, hvor FCK skal bevise, at de kan holde dampen oppe efter denne følelsesladede sejr.</p>
+            <p>For dansk fodbold er derbyet et højdepunkt, der viser ligaens kvalitet og lidenskab. Kampen den 25. februar 2025 vil blive husket som en klassiker – ikke kun for det dramatiske udfald, men for den intensitet, der definerede hver eneste duel på banen. Mens FCK nu står stærkere i tabellen, er spændingen intakt, og næste møde mellem de to giganter sætter allerede nu pulsen i vejret hos fans på begge sider af linjen.</p>
+            <hr>
+            <div class="related-articles">
+                <h3>Nyeste artikler</h3>
+                <div class="teaser-grid">
+                    <div class="teaser sports-news">
+                        <a href="#article11"><img src="Billeder/ATPMexican.jpg" alt="Holger Rune"><h3>Rune tager Mexico med storm</h3></a>
+                    </div>
+                    <div class="teaser danish-news">
+                        <a href="#article8"><img src="Billeder/DR1.jpg" alt="DR satire"><h3>DR’s satire splitter Danmark</h3></a>
+                    </div>
+                    <div class="teaser crypto-news">
+                        <a href="#article10"><img src="Billeder/Bitcoin.jpg" alt="Bitcoin surge"><h3>Bitcoin brager frem</h3></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="article7">
+            <h1>City og Madrid dominerer</h1>
+            <h2>Premier League og La Liga leverer topfodbold og drama i februar 2025</h2>
+            <p class="byline">Af Grok, 26. februar 2025</p>
+            <p>Februar 2025 har budt på fodbold i verdensklasse, hvor Manchester City og Real Madrid har taget føringen i henholdsvis Premier League og La Liga. City har sat standarden i England med en række af fem sejre i træk, anført af en ustoppelig Erling Haaland, mens Real Madrid og Barcelona kæmper om toppen i Spanien med stjerner som Jude Bellingham og Robert Lewandowski i centrum. For fans verden over – og ikke mindst i Danmark, hvor begge ligaer har tusindvis af tilhængere – er det en sæson fyldt med spænding, taktisk brillans og løfter om en dramatisk afslutning.</p>
+            <h3>City’s ubønhørlige fremmarch</h3>
+            <p>Manchester City har under Pep Guardiola cementeret deres position som Premier League’s førende kraft i februar 2025. Med en blanding af taktisk genialitet og rå fysik har de fejet modstandere som Arsenal og Liverpool til side og sat sig solidt i spidsen af tabellen. Erling Haaland, den norske målmaskine, har været i centrum med 18 mål i sæsonen indtil videre, og hans præstation i en 3-1-sejr over Manchester United den 22. februar var intet mindre end spektakulær. To mål fra hans fod og en assist fra Kevin De Bruyne viste, hvorfor City er favoritter til at tage titlen igen.</p>
+            <p>Men konkurrencen er hård. Arsenal, kun tre point efter, har vist stædighed med en ung trup ledet af Martin Ødegaard, mens Liverpool under Jürgen Klopp fortsat kan finde magien på deres bedste dage, selv efter en ujævn sæsonstart. "City spiller på et andet niveau lige nu," siger tidligere Premier League-spiller Gary Neville til Sky Sports. "Men det er ikke over – et fejltrin, og de kan blive indhentet." For danske fans er der ekstra interesse i Pierre-Emile Højbjerg hos Tottenham, som snart møder City i en kamp, der kan blive afgørende for hans eget holds top-4-ambitioner.</p>
+            <h3>La Liga’s klassiske opgør</h3>
+            <p>I Spanien er det som altid en duel mellem Real Madrid og Barcelona, der dominerer overskrifterne. Real har haft en stærk start på 2025, anført af Jude Bellingham, som efter sin overgang fra Dortmund i 2023 er blevet en af verdens mest eftertragtede spillere. Med 12 mål og 8 assists i sæsonen har han været afgørende, og hans præstation i en 4-2-sejr over Sevilla den 21. februar viste hans evne til at binde holdet sammen. Men Barcelona er tæt på med en genoplivet Robert Lewandowski, der har fundet sin topform igen. Polakken scorede et hattrick i en 5-1-sejr mod Villarreal tidligere i måneden og har løftet Barca tilbage i titelkampen.</p>
+            <p>Næste El Clásico i april kan blive afgørende, men indtil da handler det om konsistens. Real’s fans drømmer om at genvinde titlen efter sidste sæsons skuffelse, mens Barcelona’s unge trup – med talenter som Pedri og Gavi – giver håb om en renæssance efter år med økonomiske udfordringer. "Real er tilbage på toppen," siger fan Maria Lopez fra Madrid, men analytiker Juan Pérez tilføjer: "Barcelona har sulten – de kan overraske." Kampen om La Liga er en taktisk og følelsesmæssig rutsjebane, der holder fansene på tæerne.</p>
+            <h3>Champions League og dansk interesse</h3>
+            <p>Begge ligaer får snart ekstra krydderi, når Champions League’s knockout-fase tager fart i marts. Manchester City møder Bayern München i en kamp, der allerede kaldes en tidlig finale, hvor Haaland vil stå over for en af verdens bedste forsvar. Real Madrid får en lige så hård test mod Paris Saint-Germain, hvor Kylian Mbappé, Lionel Messi og Neymar danner en frygtindgydende trio. For danske fans er der også fokus på spillere som Christian Eriksen, der kæmper for at holde Manchester United i spillet, og Rasmus Højlund, som har fået en opblomstring hos Atalanta og kan blive en nøglefigur i Europa.</p>
+            <p>Sæsonen er kun halvvejs, men City og Real har sat barren højt. Premier League’s intensitet og La Liga’s tekniske brillans gør dem til verdens mest sete ligaer, og i Danmark fylder barer og stuer op, når kampene ruller over skærmen. Februar 2025 har vist, hvorfor fodbold er en global passion: Haaland’s kraft, Bellingham’s finesse og Lewandowski’s erfaring er bare begyndelsen på en sæson, hvor hver kamp kan ændre alt i jagten på trofæerne. For danske seere er det også en påmindelse om vores egne spillere på den store scene – og en invitation til at holde med i spændingen.</p>
+            <hr>
+            <div class="related-articles">
+                <h3>Nyeste artikler</h3>
+                <div class="teaser-grid">
+                    <div class="teaser sports-news">
+                        <a href="#article11"><img src="Billeder/ATPMexican.jpg" alt="Holger Rune"><h3>Rune tager Mexico med storm</h3></a>
+                    </div>
+                    <div class="teaser danish-news">
+                        <a href="#article8"><img src="Billeder/DR1.jpg" alt="DR satire"><h3>DR’s satire splitter Danmark</h3></a>
+                    </div>
+                    <div class="teaser international-news">
+                        <a href="#article9"><img src="Billeder/Trump_VIP.jpg" alt="Trump Golden Card"><h3>Trumps "Guldkort" åbner USA</h3></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="article8">
+            <h1>DR’s satire splitter Danmark</h1>
+            <h2>"Tæt på sandheden" parodierer Grønland den 24. februar 2025 og udløser politianmeldelser</h2>
+            <p class="byline">Af Grok, 26. februar 2025</p>
+            <p>Den 24. februar 2025 sendte DR’s satireprogram "Tæt på sandheden" en sketch, der har sat Danmark i brand og genåbnet en følsom debat om ytringsfrihed, kulturel respekt og grænserne for humor. Programmet parodierede DR’s egen fejlslagne dokumentar "Grønlands hvide guld" med en sketch, der skulle være selvironisk, men som mange grønlændere opfattede som en respektløs hån mod deres identitet. Resultatet har været en bølge af politianmeldelser, voldsomme reaktioner på sociale medier og et pres på DR, der nu står over for krav om undskyldninger og en potentiel revurdering af deres satiriske tilgang.</p>
+            <h3>En sketch der ramte forkert</h3>
+            <p>Sketchen viste en dansk kvinde iført inuit-inspirerede tatoveringer og grønlandske symboler, mens hun på overdreven vis forklarede DR’s fejltagelser med dokumentaren "Grønlands hvide guld". Denne dokumentar blev trukket tilbage i 2024 efter massiv kritik fra grønlandske repræsentanter for historiske unøjagtigheder og manglende involvering af lokale stemmer – en fiasko, DR selv har kaldt "pinlig". "Tæt på sandheden" ville tage pis på deres eget rod, men reaktionen var alt andet end latter. Grønlændere som aktivisten Naja Peters skrev på X: "Det er ikke selvironi – det er en hån mod vores kultur." Andre kaldte det "racisme forklædt som humor" og pegede på, at brugen af kulturelle symboler uden kontekst var dybt krænkende.</p>
+            <p>Den grønlandske politiker Aaja Chemnitz fra Inuit Ataqatigiit, der sidder i Folketinget, var hurtig til at fordømme sketchen: "Det er skammeligt, at DR bruger vores arv som en punchline," sagde hun til Politiken. Kort efter blev DR politianmeldt af flere grønlandske organisationer for overtrædelse af paragraf 266b i straffeloven, der omhandler krænkende fremstilling af etniske grupper. Politiet i Nuuk bekræftede den 25. februar, at de behandler anmeldelserne, hvilket har sat yderligere fokus på sagen. Sociale medier eksploderede med hashtags som #RespektForGrønland og #DRSkam, hvor tusindvis af brugere – både grønlændere og danskere – udtrykte deres vrede.</p>
+            <h3>DR på defensiven</h3>
+            <p>DR’s programchef, Jonatan Spang, forsøgte at dæmpe stormen i et interview med DR Nyheder den 25. februar. "Satiren var rettet mod DR’s egne fejl, ikke mod grønlændere. Vi beklager, hvis det blev misforstået," sagde han. Men DR nægtede at udstede en formel undskyldning og fastholdt, at ytringsfriheden giver dem ret til at provokere. "Humor skal kunne stikke – ellers er det ikke humor," tilføjede Spang og henviste til programmets tradition for at tage pis på magthavere og institutioner, inklusive deres eget mediehus. DR har foreslået et møde med grønlandske repræsentanter for at diskutere sagen, men det har ikke dæmpet kritikken.</p>
+            <p>Politisk er sagen blevet et varmt emne. Kulturminister Jakob Engel-Schmidt udtalte til Ritzau, at han er "bekymret" over reaktionerne, men understregede, at han ikke vil blande sig i DR’s redaktionelle linje. Det sætter fokus på et paradoks: DR finansieres af danske skatteydere til en pris af 5 milliarder kroner årligt – ca. 2.500 kroner per husstand i 2025 – men har som public service-kanal redaktionel uafhængighed. "Politikere skal holde fingrene væk fra redaktionerne," siger ytringsfrihedsforkæmper Lars Andersen fra PEN Danmark. Men for grønlændere som Peters er det utilstrækkeligt: "De bruger vores penge til at latterliggøre os – det er hykleri."</p>
+            <h3>En større debat om satire og kultur</h3>
+            <p>Sagen rækker ud over en enkelt sketch og rammer en dybere nerve i Danmark anno 2025. Satire har altid været en del af DR’s DNA – fra "Ugens Rapport" i 1970’erne til "Tæt på sandheden" i dag – men i en multikulturel tid stiller det nye krav til balancen mellem provokation og respekt. Medieforsker Ida Willig fra Roskilde Universitet mener, at DR fejlvurderede situationen: "Satire kan ramme hårdt, men når det går ud over sårbare grupper som grønlændere, der historisk har været marginaliseret, bliver det problematisk." Omvendt forsvarer kommentator Søren Jensen fra Jyllands-Posten ytringsfriheden: "Hvis vi censurerer humor, mister vi en vigtig ventil i samfundet."</p>
+            <p>For Grønland, et selvstyrende område under Danmark, er sagen særligt følsom. Historien er fyldt med eksempler på dansk dominans og stereotyper – fra kolonitiden til moderne mediebilleder – og mange grønlændere ser sketchen som et nyt kapitel i den fortælling. "Vi er ikke bare en del af Danmark, vi er et folk med vores egen identitet," siger Peters. Debatten har også fået politisk genklang i Nuuk, hvor Naalakkersuisut (Grønlands regering) overvejer at tage sagen op med den danske regering som et spørgsmål om respekt og ligeværd.</p>
+            <h3>Hvad sker der nu?</h3>
+            <p>DR står over for et dilemma: Skal de bøje sig for presset og undskylde, eller stå fast på deres linje? En politisag kan tvinge deres hånd – hvis anmeldelserne fører til en retssag, risikerer DR bøder eller offentlig reprimande, hvilket kan skade deres troværdighed yderligere. Samtidig har nogle seere truet med en boykot af licensbetalingen, selvom det juridisk er svært at gennemføre. "Vi betaler ikke for at blive hånet," skriver en bruger på X.</p>
+            <p>For mange handler det om mere end en sketch – det er et spørgsmål om, hvordan Danmark balancerer sin fortid og nutid som en nation med flere kulturer. "Tæt på sandheden" har tidligere stået i storme – fx i 2023 over en sketch om etniske minoriteter – men denne gang kan konsekvenserne blive større. Medieforsker Willig spår, at DR kan blive nødt til at revurdere deres tilgang: "Det er en lærestreg – ikke alt kan lade sig gøre i satire i dag."</p>
+            <p>Mens debatten raser, er én ting klar: Sketchen fra 24. februar har sat et nyt højdepunkt i diskussionen om, hvor grænsen går mellem frihed og ansvar – og hvordan Danmark tackler sin rolle som både satirisk spydspids og multikulturel nation i 2025.</p>
+            <hr>
+            <div class="related-articles">
+                <h3>Nyeste artikler</h3>
+                <div class="teaser-grid">
+                    <div class="teaser international-news">
+                        <a href="#article9"><img src="Billeder/Trump_VIP.jpg" alt="Trump Golden Card"><h3>Trumps "Guldkort" åbner USA</h3></a>
+                    </div>
+                    <div class="teaser sports-news">
+                        <a href="#article11"><img src="Billeder/ATPMexican.jpg" alt="Holger Rune"><h3>Rune tager Mexico med storm</h3></a>
+                    </div>
+                    <div class="teaser crypto-news">
+                        <a href="#article10"><img src="Billeder/Bitcoin.jpg" alt="Bitcoin surge"><h3>Bitcoin brager frem</h3></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="article9">
+            <h1>Trumps "Guldkort" åbner USA for millionærer</h1>
+            <h2>Fra 25. februar 2025 kan rige udlændinge købe opholdstilladelse – og det splitter nationen</h2>
+            <p class="byline">Af Grok, 26. februar 2025</p>
+            <p>Den 25. februar 2025 annoncerede Donald Trump en ny immigrationsordning, der har sendt chokbølger gennem USA og genantændt debatten om lighed, privilegier og nationens fremtid. "Guldkort"-programmet giver velhavende udlændinge med mindst 5 millioner dollars mulighed for at købe en opholdstilladelse og en hurtig vej til statsborgerskab ved at investere i amerikanske virksomheder eller ejendomme og skabe 10 jobs. Trump kalder det en "gamechanger" for økonomien, men kritikere ser det som et skamløst salg af amerikanske værdier, der kan forværre ulighed og boligkriser i et allerede polariseret land.</p>
+            <h3>En ny vej til det amerikanske drømmeland</h3>
+            <p>"Guldkortet" erstatter det gamle EB-5-visumprogram, som siden 1990 har tilbudt ophold til investorer mod en mindre investering på $900.000. Men EB-5 var plaget af svindel, bureaukrati og lange ventetider, og Trump har nu hævet indsatsen til 5 millioner dollars – en sum, der ifølge hans administration vil tiltrække "de bedste og mest talentfulde". Programmet lover statsborgerskab inden for fem år og bruger præsidentielle beføjelser til at omgå Kongressen, hvilket allerede har udløst juridisk modstand. "Vi har brug for folk, der kan løfte vores økonomi," sagde Trump i en tale i Florida, hvor han fremhævede muligheden for at tiltrække milliardærer som Kinas Jack Ma eller Ruslands Roman Abramovich.</p>
+            <p>Lanceringen er planlagt til at starte om få uger, og administrationen forventer hundredvis af ansøgninger fra dag ét. Tilhængere som Elon Musk har rost initiativet: "Det bringer kapital og jobs – hvad er der ikke at elske?" Økonomer fra Goldman Sachs anslår, at hvis 1.000 millionærer tager imod tilbuddet, kan det pumpe 5 milliarder dollars direkte ind i økonomien og skabe op mod 10.000 jobs i sektorer som teknologi og ejendomme. Eksempler på potentielle investeringer inkluderer tech-startups i Silicon Valley eller luksusboliger i Miami – områder, der allerede summer af interesse fra globale rigmænd.</p>
+            <h3>Kritik fra gaden til Kongressen</h3>
+            <p>Modstanden var øjeblikkelig og højlydt. Immigrationsforkæmpere som Maria Gonzalez fra Immigrant Rights Coalition kalder det "et slag mod lighed". "Statsborgerskab skal ikke være en luksusvare, der sælges til højestbydende," siger hun. I storbyer som San Francisco og New York frygter boligaktivister som John Carter en forværring af en allerede eksplosiv boligkrise. "Priserne vil skyde i vejret," advarer han og peger på, at en gennemsnitslejlighed i San Francisco allerede koster over 1 million dollars. Hvis rige udlændinge begynder at købe op, kan middelklassen presses ud i forstæderne eller helt væk.</p>
+            <p>Politisk er sagen blevet en slagmark. Senator Elizabeth Warren har varslet retssager: "Det her er et direkte angreb på vores demokratiske værdier – vi sælger ikke statsborgerskab til milliardærer." Hun og andre demokrater frygter også misbrug, som set med EB-5, hvor falske projekter i stater som Vermont førte til svindel for hundredvis af millioner. En rapport fra 2023 viste, at over 20% af EB-5-investeringerne var tvivlsomme, og kritikere spørger, hvad der skal forhindre lignende problemer nu, når indsatsen er fem gange højere. Republikanere som senator Ted Cruz forsvarer dog planen: "Det er ren sund fornuft – vi får jobs og kapital uden at belaste skatteyderne."</p>
+            <h3>En nation delt af privilegier</h3>
+            <p>Debatten afspejler en dybereliggende splittelse i USA’s immigrationspolitik. Historisk har landet balanceret mellem at være åbent for "de trængende masser" – som skrevet på Frihedsgudinden – og en mere pragmatisk tilgang til at tiltrække talent og kapital. "Guldkortet" tipper vægten mod det sidste, hvilket glæder erhvervslivet, men vækker vrede blandt dem, der ser immigration som et moralsk spørgsmål. I byer som Los Angeles har demonstranter allerede marcheret med skilte, der lyder "USA er ikke til salg", mens tech-milliardærer på X hylder det som "fremtidens model".</p>
+            <p>En meningsmåling fra CNN den 25. februar viste en næsten lige opdeling: 46% støtter "Guldkortet", mens 50% er imod, med klare partilinjer. I stater som Texas og Florida, hvor økonomisk vækst er i højsædet, er begejstringen stor – "Det her er jobs til os," siger entreprenør Mike Torres fra Dallas. Men i kyststater som Californien og New York, hvor boligpriser og ulighed allerede er brændende emner, vokser modstanden, især blandt yngre vælgere. "Vi har brug for boliger, ikke flere milliardærer," siger studerende Emily Chen fra Berkeley.</p>
+            <h3>Økonomisk gevinst eller social pris?</h3>
+            <p>Økonomisk kan "Guldkortet" give et kortsigtet boost. Eksperter som Laura Klein fra Brookings Institution anslår, at programmet kan tilføre op mod 20 milliarder dollars til USA’s BNP over fem år, hvis det tiltrækker 4.000 investorer – en dråbe i det 25 billioner dollars store amerikanske økonomi, men en mærkbar indsprøjtning i specifikke sektorer. Men Klein advarer også: "Det kan forværre uligheden. Pengene går til toppen, mens middelklassen kæmper med stigende leveomkostninger."</p>
+            <p>Boligmarkedet er et konkret eksempel. I Miami steg priserne med 15% alene i 2024 på grund af udenlandsk kapital, og "Guldkortet" kan accelerere den trend. I San Francisco har lokale politikere allerede foreslået skatter på udenlandske køb for at dæmpe effekten, men Trump-administrationen har truet med at blokere sådanne tiltag. Samtidig frygter eksperter som James Carter fra HUD (Department of Housing) en social backlash: "Hvis folk føler, at systemet er rigget mod dem, kan det føre til uro."</p>
+            <p>Internationelt er reaktionerne blandede. Lande som Saudi-Arabien og Singapore har rost modellen, mens EU’s talsmand Pierre Dubois kalder det "en kynisk udnyttelse af immigration". For Danmark, hvor mange følger amerikansk politik tæt, har sagen også sat gang i diskussioner om vores egen tilgang til udenlandske investorer – selvom vores regler forbliver langt strengere.</p>
+            <h3>Vejen frem for Trumps vision</h3>
+            <p>Trump står over for en kamp for at få "Guldkortet" igennem. Retssager fra demokratiske stater som New York og Californien er allerede på vej, med fokus på, om han har overtrådt sine beføjelser ved at omgå Kongressen. Hvis Højesteret, hvor han har en konservativ overvægt, bakker ham op, kan programmet rulle ud som planlagt. Men politisk modstand i Senatet – hvor Republikanerne kun har 51 sæder – kan bremse finansieringen af de nødvendige administrative ændringer.</p>
+            <p>For Trump handler det om at levere et tidligt resultat i hans nye embedsperiode. Hvis "Guldkortet" tiltrækker de lovede investeringer uden store skandaler, kan det cementere hans image som en økonomisk visionær. Men hvis det fejler – enten juridisk, økonomisk eller socialt – risikerer det at blive et symbol på hans kritikeres anklager om elitisme og grådighed. For nu er USA delt: en nation, hvor nogle ser guld i horisonten, mens andre ser en trussel mod selve idéen om det amerikanske drømmeland.</p>
+            <hr>
+            <div class="related-articles">
+                <h3>Nyeste artikler</h3>
+                <div class="teaser-grid">
+                    <div class="teaser danish-news">
+                        <a href="#article8"><img src="Billeder/DR1.jpg" alt="DR satire"><h3>DR’s satire splitter Danmark</h3></a>
+                    </div>
+                    <div class="teaser sports-news">
+                        <a href="#article11"><img src="Billeder/ATPMexican.jpg" alt="Holger Rune"><h3>Rune tager Mexico med storm</h3></a>
+                    </div>
+                    <div class="teaser crypto-news">
+                        <a href="#article10"><img src="Billeder/Bitcoin.jpg" alt="Bitcoin surge"><h3>Bitcoin brager frem</h3></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="article10">
+            <h1>Bitcoin brager frem: Frihed eller risiko?</h1>
+            <h2>Den 25. februar 2025 stiger kryptovalutaen 10 % på 24 timer og sætter ny dagsrekord</h2>
+            <p class="byline">Af Grok, 26. februar 2025</p>
+            <p>Den 25. februar 2025 blev en historisk dag for Bitcoin, da verdens største kryptovaluta sprang 10% på blot 24 timer og nåede en pris på $76,000 – en ny dagsrekord for året. Stigningen, drevet af institutionelle investorer og en bølge af optimisme på sociale medier, har genantændt debatten om Bitcoins rolle: Er det en vej til finansiel frihed eller en risikabel boble, der truer med at briste? Mens investorer jubler, advarer skeptikere om volatilitet og regulering, og i Danmark følger både småsparere og finansfolk med i spænding.</p>
+            <h3>En eksplosiv uge</h3>
+            <p>Stigningen startede tidligt tirsdag morgen den 25. februar, da Bitcoin lå på $69,000. Institutionelle spillere som BlackRock og Fidelity kastede sig ind med massive køb gennem deres Bitcoin-ETF’er – finansielle produkter, der har gjort det lettere for traditionelle investorer at hoppe med uden at eje selve valutaen. Samtidig satte rygter på X om en ny bølge af adoption fra tech-giganter som Tesla og Amazon ekstra fart på markedet. Klokken 18:00 GMT ramte prisen $76,000, en stigning på over $7,000 på ét døgn – den største dagsgevinst siden november 2021.</p>
+            <p>For danske investorer som Kasper Nielsen fra Aarhus var det en festdag: "Jeg købte ind til $70,000 i går og tjente 40.000 kroner på en dag – det er vildt!" Men bag tallene ligger en bredere trend. Februar 2025 har været en stærk måned for krypto, hvor Bitcoin allerede var steget fra $55,000 i starten af måneden, drevet af frygt for inflation i traditionelle valutaer og en voksende tro på krypto som en "sikker havn". Samtidig har Ethereum og Solana fulgt trop med stigninger på henholdsvis 8% og 12%, hvilket har givet næring til spekulation om en ny gylden æra for digitale valutaer.</p>
+            <h3>Drivkræfterne bag boomet</h3>
+            <p>Flere faktorer har sat skub i Bitcoins seneste fremmarch. For det første har institutionel interesse nået nye højder. Ifølge CoinDesk har ETF’er tilført over 2 milliarder dollars til markedet i februar alene, og store hedgefonde som Bridgewater Associates har øget deres eksponering. "Det er ikke længere kun tech-nørder – det er Wall Street," siger analytiker Peter Jensen fra Danske Bank. For det andet har sociale medier spillet en kæmpe rolle, med influencers og krypto-entusiaster på X, der pumper hypen med hashtags som #BitcoinBoom og #ToTheMoon.</p>
+            <p>Men der er også makroøkonomiske drivkræfter. Den amerikanske dollar har mistet 3% af sin værdi mod euroen i 2025 på grund af stigende inflation og renter, hvilket har gjort investorer nervøse for traditionelle aktiver. "Bitcoin er en hedge mod et system i krise," siger investor Peter Thiel, der har været en tidlig tilhænger. Samtidig har teknologiske fremskridt som Lynnetværket – en løsning, der gør Bitcoin-transaktioner hurtigere og billigere – styrket troen på dens praktiske anvendelighed, selvom kun få bruger det til daglige køb.</p>
+            <h3>Risikoen der lurer</h3>
+            <p>Men ikke alle er overbeviste om festen. Volatiliteten, der driver Bitcoins stigninger, er også dens akilleshæl. "Det er en boble," siger økonom Jens Møller fra Nordea. "Vi så det i 2021 – folk køber på hype, og når panikken rammer, styrter det." Historien giver ham ret: Efter at have nået $69,000 i 2021 faldt Bitcoin til $16,000 i 2022, og mange investorer som Line Petersen fra Odense mistede store summer. "Jeg tabte 100.000 kroner sidste gang – jeg rører det ikke mere," siger hun.</p>
+            <p>Regulering er en anden trussel. USA’s SEC har varslet strengere kontrol med kryptobørser, og en ny lov kan kræve skatterapportering af transaktioner over $10,000 – noget, der kan skræmme investorer væk. I EU, hvor Danmark følger MiCA-lovgivningen, skal gevinster snart indberettes til SKAT, hvilket kan tage noget af Bitcoins rebel-appeal. Miljøkritik er også et vedvarende problem: Selvom Ethereum har skåret i energiforbruget, bruger Bitcoin stadig enorme mængder strøm – svarende til hele Sveriges forbrug – hvilket gør det til et mål for grønne aktivister.</p>
+            <h3>En fremtid på klingen</h3>
+            <p>Bitcoins rekorddag den 25. februar har sat gang i spådomme. Nogle, som krypto-guru Mike Novogratz, spår en pris på $100,000 inden årets udgang: "Institutionerne er med nu – det er kun opad." Andre, som Møller, ser et styrt i horisonten: "Det er FOMO (Fear of Missing Out) igen – folk køber blindt." For danske småsparere som Nielsen er det en chance værd: "Jeg sælger ikke endnu – det kan gå endnu højere."</p>
+            <p>Men Bitcoins fremtid handler om mere end pris. Dets oprindelige løfte – et decentralt alternativ til bankerne – bliver både styrket og udfordret af den nye mainstream-interesse. Hvis det bliver for reguleret, kan det miste sin frihedsappel, men hvis det forbliver vildt, risikerer det at skræmme institutioner væk. For nu fejrer investorerne den 25. februar som en triumf, men i kryptoverdenen kan sejren hurtigt vende til kaos – og Danmark ser med, mens markedet balancerer på en knivsæg.</p>
+            <hr>
+            <div class="related-articles">
+                <h3>Nyeste artikler</h3>
+                <div class="teaser-grid">
+                    <div class="teaser international-news">
+                        <a href="#article9"><img src="Billeder/Trump_VIP.jpg" alt="Trump Golden Card"><h3>Trumps "Guldkort" åbner USA</h3></a>
+                    </div>
+                    <div class="teaser danish-news">
+                        <a href="#article8"><img src="Billeder/DR1.jpg" alt="DR satire"><h3>DR’s satire splitter Danmark</h3></a>
+                    </div>
+                    <div class="teaser sports-news">
+                        <a href="#article11"><img src="Billeder/ATPMexican.jpg" alt="Holger Rune"><h3>Rune tager Mexico med storm</h3></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="article11">
+            <h1>Rune tager Mexico med storm: En stjerne er født</h1>
+            <h2>Den 25. februar 2025 vinder Holger Rune første runde i ATP Mexican Open og begejstrer Danmark</h2>
+            <p class="byline">Af Grok, 26. februar 2025</p>
+            <p>Den 25. februar 2025 markerede en milepæl for dansk tennis, da den 21-årige Holger Rune åbnede ATP Mexican Open i Acapulco med en overbevisende sejr over spanieren Roberto Carballés Baena. Med cifrene 7-6(5), 6-3 viste Rune både teknisk finesse og mental styrke, og hans præstation sendte chokbølger gennem tennisverdenen – og satte Danmark i ekstase. For mange er sejren et tegn på, at en ny stjerne er født, klar til at bære dansk tennis ind i en ny æra.</p>
+            <h3>En dramatisk start</h3>
+            <p>Kampen i Acapulco var alt andet end en let sejr. Første sæt blev en neglebidende affære, hvor Carballés Baena, rangeret nummer 62 i verden, pressede Rune til det yderste. Spanieren brød Runes serv tidligt og satte danskeren under pres, men Rune kæmpede sig tilbage med præcise grundslag og en urokkelig tro på sig selv. Sættet endte i en tiebreak, hvor Rune viste sin klasse: Med en blanding af aggressive angreb og kloge placeringer sikrede han sig sættet 7-6(5) til jubel fra de danske fans, der fulgte med hjemmefra.</p>
+            <p>Andet sæt var en opvisning i Runes stigende modenhed. Efter at have brudt Carballés’ serv i tredje game tog han kontrol og lukkede kampen med 6-3 efter en række voldsomme vinderslag fra baglinjen. "Jeg holdt fokus hele vejen," sagde Rune efter kampen til TV2 Sport. "Han er en svær modstander, men jeg fandt mit spil, da det gjaldt." Sejren var ikke blot en god start på turneringen – den var et statement fra en ung spiller, der vil op og frem.</p>
+            <h3>En dansk stjerne i opstigning</h3>
+            <p>Rune har længe været et af dansk tennis’ største håb, og hans præstation i Acapulco cementerer hans status. Siden han brød igennem i 2022 med en sejr i Paris Masters som 19-årig – hvor han slog fem top-10-spillere, inklusive Novak Djokovic – har han klatret op ad verdensranglisten og står nu som nummer 12. Men det er ikke kun hans resultater, der imponerer; det er hans spillestil. Med en blanding af Carlos Alcaraz’ aggressivitet og Rafael Nadals udholdenhed bringer Rune noget unikt til banen – og en selvtillid, der får eksperter til at spærre øjnene op.</p>
+            <p>Tennislegenden Mats Wilander roste Rune på Eurosport: "Han har alt – teknik, fysik og mental styrke. Han kan blive nummer ét en dag." I Danmark er begejstringen lige så stor. "Holger er vores næste store stjerne siden Caroline Wozniacki," siger fan Mette Larsen fra København, der så kampen på tv. "Han gør os stolte." Efter Acapulco-sejren trender #RuneRising på X, hvor danske tilhængere deler klip af hans vilde slag og råber ham op som en kommende legende.</p>
+            <h3>Vejen til toppen</h3>
+            <p>Men rejsen er kun lige begyndt. ATP Mexican Open er en 500-point-turnering, og Rune står over for stærk konkurrence i næste runde, hvor han møder enten amerikaneren Taylor Fritz eller en kvalifikationsspiller. Fritz, rangeret nummer 9, vil være en hård nød – hans serv og hurtige spil kan udfordre Runes forsvar. Men Rune har vist, at han kan slå de store: Hans sejr over Djokovic i 2022 og en kvartfinale i Australian Open 2024 beviser, at han har potentialet til at nå langt.</p>
+            <p>Træner Patrick Mouratoglou, der har arbejdet med Serena Williams, har sat ambitiøse mål for Rune: "Han kan vinde en Grand Slam inden for to år – han har viljen og talentet." Men Mouratoglou understreger også udfordringerne: "Han skal blive mere konsistent og håndtere presset." Rune har tidligere fået kritik for temperament – fx i 2023, hvor han blev udskældt for frustrationer mod dommere – men i Acapulco viste han ro og fokus, et tegn på modning.</p>
+            <h3>En arv i vente</h3>
+            <p>For Danmark er Rune mere end en spiller – han er en chance for at genoplive tennisglæden fra Wozniacki-æraen. Med sejren den 25. februar har han sat sig på verdenskortet i en turnering, hvor navne som Nadal og Federer tidligere har skinnet. Hvis han kan vinde Mexican Open, vil det være hans næststørste titel og sende ham ind i top-10 – et springbræt mod de største scener. "Jeg vil vinde alt," sagde han grinende til pressen i Acapulco, og hans selvtillid smitter.</p>
+            <p>Mens Danmark holder vejret for næste runde, er én ting klar: Holger Rune er ikke længere bare et løfte – han er en stjerne i fuld opstigning, og hans sejr i Mexico den 25. februar 2025 kan være starten på noget historisk.</p>
+            <hr>
+            <div class="related-articles">
+                <h3>Nyeste artikler</h3>
+                <div class="teaser-grid">
+                    <div class="teaser international-news">
+                        <a href="#article9"><img src="Billeder/Trump_VIP.jpg" alt="Trump Golden Card"><h3>Trumps "Guldkort" åbner USA</h3></a>
+                    </div>
+                    <div class="teaser danish-news">
+                        <a href="#article8"><img src="Billeder/DR1.jpg" alt="DR satire"><h3>DR’s satire splitter Danmark</h3></a>
+                    </div>
+                    <div class="teaser crypto-news">
+                        <a href="#article10"><img src="Billeder/Bitcoin.jpg" alt="Bitcoin surge"><h3>Bitcoin brager frem</h3></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>© 2025 Ufiltreret. Alle rettigheder forbeholdes.</p>
+    </footer>
+</body>
+</html>
