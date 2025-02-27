@@ -1,4 +1,4 @@
-/* General styles */
+/* Generelle stilarter */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-/* Header styles */
+/* Header stilarter */
 header {
     background-color: #00cc00;
     color: #ffffff;
@@ -40,7 +40,7 @@ header p {
     height: auto;
 }
 
-/* Navigation styles */
+/* Navigation stilarter */
 nav {
     background-color: #006600;
     padding: 10px;
@@ -64,7 +64,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Main content styles */
+/* Main content stilarter */
 main {
     padding: 20px;
     max-width: 1200px;
@@ -81,7 +81,7 @@ section h2 {
     margin-bottom: 20px;
 }
 
-/* Teaser grid styles */
+/* Teaser grid stilarter */
 .teaser-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -119,7 +119,7 @@ section h2 {
     display: block;
 }
 
-/* Specific teaser backgrounds */
+/* Specifikke teaser baggrundsfarver */
 .teaser.danish-news {
     background-color: #2E7D32;
 }
@@ -136,7 +136,7 @@ section h2 {
     background-color: #4CAF8C;
 }
 
-/* Footer styles */
+/* Footer stilarter */
 footer {
     background-color: #006600;
     color: #ffffff;
@@ -145,20 +145,47 @@ footer {
     margin-top: 20px;
 }
 
-/* Media query for mobile */
+/* Stilarter for artikler (overskrifter, byline, billeder) */
+article h1 {
+    color: #2E7D32; /* Grøn farve til overskrifter */
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+article h2 {
+    color: #000000; /* Sort farve til underoverskrifter */
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+article .byline {
+    font-style: italic;
+    color: #555; /* Grå farve til byline */
+    margin-bottom: 20px;
+}
+
+.article-image {
+    max-width: 100%; /* Billedet bliver ikke bredere end containeren */
+    height: auto;    /* Højden tilpasser sig proportionelt */
+    display: block;  /* Fjerner ekstra mellemrum under billedet */
+    margin: 0 auto;  /* Centrerer billedet */
+}
+
+/* Responsive design for mobil */
 @media (max-width: 768px) {
     .teaser-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* En kolonne på mobil */
     }
     .teaser img {
-        width: 100%;
+        width: 100%; /* Billeder fylder bredden */
         height: auto;
     }
     header h1 {
-        font-size: 2.5em;
+        font-size: 2.5em; /* Mindre overskrift på mobil */
     }
     nav ul li {
-        display: block;
+        display: block; /* Navigation i blokke på mobil */
         margin: 10px 0;
     }
 }
